@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 340px;
+  margin: 0;
+  padding: 10px;
+}
+.container {
+  display: grid;
+  gap: 10px;
+}
+h1 {
+  font-size: 16px;
+  margin: 0 0 6px 0;
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px;
+}
+.label {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-bottom: 4px;
+}
