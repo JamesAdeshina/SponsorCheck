@@ -1,0 +1,28 @@
+{
+  "name": "sponsorcheck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build:sponsors": "node scripts/build_sponsor_index.js",
+    "validate:sponsors": "node scripts/validate_sponsors.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesAdeshina/SponsorCheck.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JamesAdeshina/SponsorCheck/issues"
+  },
+  "homepage": "https://github.com/JamesAdeshina/SponsorCheck#readme",
+  "dependencies": {
+    "csv-parse": "^6.1.0"
+  }
+}
